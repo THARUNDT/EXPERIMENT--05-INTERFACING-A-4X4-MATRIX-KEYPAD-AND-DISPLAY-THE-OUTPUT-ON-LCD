@@ -2,10 +2,13 @@
 
 ## Name: THARUN D
 ## Roll Number: 212223240167
+
 ## Aim: 
 To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM controller , and simulate it in Proteus
+
 ## Components required: 
 STM32 CUBE IDE, Proteus 8 simulator .
+
 ## Theory:
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
 
@@ -157,7 +160,8 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 14. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
-15. click on debug and simulate using simulation as shown below 
+15. click on debug and simulate using simulation as shown below
+
 
 ## STM 32 CUBE PROGRAM :
 ```
@@ -388,9 +392,8 @@ void assert_failed(uint8_t *file, uint32_t line)
  
  ![Screenshot 2024-09-20 131050](https://github.com/user-attachments/assets/c4fc89e4-51c6-4546-8d77-41f04ac6888c)
 
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  ![Screenshot 2024-09-20 131201](https://github.com/user-attachments/assets/4f34d4f0-444c-4540-9f75-33ddbf68f2c2)
 
- 
 ## Result :
 Interfacing a 4x4 keypad with ARM microcontroller are simulated in proteus and the results are verified.
